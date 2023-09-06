@@ -1,0 +1,44 @@
+.directions {
+	list-style: none;
+}
+
+.directions-list::before {
+	content: 'Directions:';
+	margin-bottom: 10px;
+	display: block;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.directions-item::before {
+	content: 'Step 1:';
+	display: block;
+	font-weight: bold;
+	list-style: none;
+}
+
+.directions-item::marker {
+	content: '';
+}
+
+.directions::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.ingredients {
+	list-style: none;
+}
+
+.ingredients::before {
+	content: 'Ingredients:';
+	display: block;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.directions-item p {
+	margin: 2px;
+	max-width: 650px;
+}
